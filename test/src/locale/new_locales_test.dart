@@ -397,7 +397,7 @@ void main() {
       test('Test Bulgarian (bg) locale formatting', () async {
         await Jiffy.setLocale('bg');
         expect(Jiffy.parseFromList([2000, 1, 15]).subtract(days: 1).fromNow(),
-            'a day ago');
+            'преди един ден');
       });
       test('Test Bulgarian (bg) locale ordinals', () async {
         await Jiffy.setLocale('bg');
@@ -410,7 +410,7 @@ void main() {
       test('Test Georgian (ka) locale formatting', () async {
         await Jiffy.setLocale('ka');
         expect(Jiffy.parseFromList([2000, 1, 15]).subtract(days: 1).fromNow(),
-            'a day ago');
+            'ერთი დღე წინ');
       });
       test('Test Georgian (ka) locale ordinals', () async {
         await Jiffy.setLocale('ka');
@@ -423,7 +423,7 @@ void main() {
       test('Test Estonian (et) locale formatting', () async {
         await Jiffy.setLocale('et');
         expect(Jiffy.parseFromList([2000, 1, 15]).subtract(days: 1).fromNow(),
-            'a day ago');
+            'üks päev tagasi');
       });
       test('Test Estonian (et) locale ordinals', () async {
         await Jiffy.setLocale('et');
@@ -436,7 +436,7 @@ void main() {
       test('Test Basque (eu) locale formatting', () async {
         await Jiffy.setLocale('eu');
         expect(Jiffy.parseFromList([2000, 1, 15]).subtract(days: 1).fromNow(),
-            'a day ago');
+            'duela egun bat');
       });
       test('Test Basque (eu) locale ordinals', () async {
         await Jiffy.setLocale('eu');
@@ -449,7 +449,7 @@ void main() {
       test('Test Galician (gl) locale formatting', () async {
         await Jiffy.setLocale('gl');
         expect(Jiffy.parseFromList([2000, 1, 15]).subtract(days: 1).fromNow(),
-            'a day ago');
+            'hai un día');
       });
       test('Test Galician (gl) locale ordinals', () async {
         await Jiffy.setLocale('gl');
