@@ -1254,192 +1254,192 @@ class SrRelativeDateTime implements RelativeDateTime {
   String wordSeparator() => ' ';
 }
 
-// TODO: Add Bulgarian translations
+// Bulgarian translations
 class BgRelativeDateTime implements RelativeDateTime {
   const BgRelativeDateTime();
 
   @override
-  String prefixAgo() => '';
+  String prefixAgo() => 'преди';
   @override
-  String prefixFromNow() => 'in';
+  String prefixFromNow() => 'след';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => '';
   @override
   String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => 'a few seconds';
+  String lessThanOneMinute(int seconds) => 'няколко секунди';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => 'една минута';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String minutes(int minutes) => '$minutes минути';
   @override
-  String aboutAnHour(int minutes) => 'an hour';
+  String aboutAnHour(int minutes) => 'един час';
   @override
-  String hours(int hours) => '$hours hours';
+  String hours(int hours) => '$hours часа';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => 'един ден';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '$days дни';
   @override
-  String aboutAMonth(int days) => 'a month';
+  String aboutAMonth(int days) => 'един месец';
   @override
-  String months(int months) => '$months months';
+  String months(int months) => '$months месеца';
   @override
-  String aboutAYear(int year) => 'a year';
+  String aboutAYear(int year) => 'една година';
   @override
-  String years(int years) => '$years years';
+  String years(int years) => '$years години';
   @override
   String wordSeparator() => ' ';
 }
 
-// TODO: Add Georgian translations
+// Georgian translations
 class KaRelativeDateTime implements RelativeDateTime {
   const KaRelativeDateTime();
 
   @override
   String prefixAgo() => '';
   @override
-  String prefixFromNow() => 'in';
+  String prefixFromNow() => '';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => 'წინ';
   @override
-  String suffixFromNow() => '';
+  String suffixFromNow() => 'შემდეგ';
   @override
-  String lessThanOneMinute(int seconds) => 'a few seconds';
+  String lessThanOneMinute(int seconds) => 'რამდენიმე წამი';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => 'ერთი წუთი';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String minutes(int minutes) => '$minutes წუთი';
   @override
-  String aboutAnHour(int minutes) => 'an hour';
+  String aboutAnHour(int minutes) => 'ერთი საათი';
   @override
-  String hours(int hours) => '$hours hours';
+  String hours(int hours) => '$hours საათი';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => 'ერთი დღე';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '$days დღე';
   @override
-  String aboutAMonth(int days) => 'a month';
+  String aboutAMonth(int days) => 'ერთი თვე';
   @override
-  String months(int months) => '$months months';
+  String months(int months) => '$months თვე';
   @override
-  String aboutAYear(int year) => 'a year';
+  String aboutAYear(int year) => 'ერთი წელი';
   @override
-  String years(int years) => '$years years';
+  String years(int years) => '$years წელი';
   @override
   String wordSeparator() => ' ';
 }
 
-// TODO: Add Estonian translations
+// Estonian translations
 class EtRelativeDateTime implements RelativeDateTime {
   const EtRelativeDateTime();
 
   @override
   String prefixAgo() => '';
   @override
-  String prefixFromNow() => 'in';
+  String prefixFromNow() => '';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => 'tagasi';
   @override
-  String suffixFromNow() => '';
+  String suffixFromNow() => 'pärast';
   @override
-  String lessThanOneMinute(int seconds) => 'a few seconds';
+  String lessThanOneMinute(int seconds) => 'mõni sekund';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => 'üks minut';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String minutes(int minutes) => '$minutes minutit';
   @override
-  String aboutAnHour(int minutes) => 'an hour';
+  String aboutAnHour(int minutes) => 'üks tund';
   @override
-  String hours(int hours) => '$hours hours';
+  String hours(int hours) => '$hours tundi';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => 'üks päev';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '$days päeva';
   @override
-  String aboutAMonth(int days) => 'a month';
+  String aboutAMonth(int days) => 'üks kuu';
   @override
-  String months(int months) => '$months months';
+  String months(int months) => '$months kuud';
   @override
-  String aboutAYear(int year) => 'a year';
+  String aboutAYear(int year) => 'üks aasta';
   @override
-  String years(int years) => '$years years';
+  String years(int years) => '$years aastat';
   @override
   String wordSeparator() => ' ';
 }
 
-// TODO: Add Basque translations
+// Basque translations
 class EuRelativeDateTime implements RelativeDateTime {
   const EuRelativeDateTime();
 
   @override
-  String prefixAgo() => '';
+  String prefixAgo() => 'duela';
   @override
-  String prefixFromNow() => 'in';
+  String prefixFromNow() => '';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => '';
   @override
-  String suffixFromNow() => '';
+  String suffixFromNow() => 'barru';
   @override
-  String lessThanOneMinute(int seconds) => 'a few seconds';
+  String lessThanOneMinute(int seconds) => 'segundo batzuk';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => 'minutu bat';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String minutes(int minutes) => '$minutes minutu';
   @override
-  String aboutAnHour(int minutes) => 'an hour';
+  String aboutAnHour(int minutes) => 'ordu bat';
   @override
-  String hours(int hours) => '$hours hours';
+  String hours(int hours) => '$hours ordu';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => 'egun bat';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '$days egun';
   @override
-  String aboutAMonth(int days) => 'a month';
+  String aboutAMonth(int days) => 'hilabete bat';
   @override
-  String months(int months) => '$months months';
+  String months(int months) => '$months hilabete';
   @override
-  String aboutAYear(int year) => 'a year';
+  String aboutAYear(int year) => 'urte bat';
   @override
-  String years(int years) => '$years years';
+  String years(int years) => '$years urte';
   @override
   String wordSeparator() => ' ';
 }
 
-// TODO: Add Galician translations
+// Galician translations
 class GlRelativeDateTime implements RelativeDateTime {
   const GlRelativeDateTime();
 
   @override
-  String prefixAgo() => '';
+  String prefixAgo() => 'hai';
   @override
-  String prefixFromNow() => 'in';
+  String prefixFromNow() => 'en';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => '';
   @override
   String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => 'a few seconds';
+  String lessThanOneMinute(int seconds) => 'uns segundos';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => 'un minuto';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String minutes(int minutes) => '$minutes minutos';
   @override
-  String aboutAnHour(int minutes) => 'an hour';
+  String aboutAnHour(int minutes) => 'unha hora';
   @override
-  String hours(int hours) => '$hours hours';
+  String hours(int hours) => '$hours horas';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => 'un día';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '$days días';
   @override
-  String aboutAMonth(int days) => 'a month';
+  String aboutAMonth(int days) => 'un mes';
   @override
-  String months(int months) => '$months months';
+  String months(int months) => '$months meses';
   @override
-  String aboutAYear(int year) => 'a year';
+  String aboutAYear(int year) => 'un ano';
   @override
-  String years(int years) => '$years years';
+  String years(int years) => '$years anos';
   @override
   String wordSeparator() => ' ';
 }
