@@ -1,6 +1,5 @@
 import '../utils/verify_locale.dart';
 import '../locale/relative_date_time.dart';
-import '../locale/new_locale_relative_time.dart';
 
 Map<String, RelativeDateTime> _relativeDateTime = {
   'en': EnRelativeDateTime(),
